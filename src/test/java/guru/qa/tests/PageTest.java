@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 public class PageTest {
 
-    PageForTest registrationPage= new PageForTest();
+    PageForTest registrationPage = new PageForTest();
 
 
     Faker faker = new Faker();
@@ -29,7 +29,7 @@ public class PageTest {
 
     @BeforeAll
     static void setup() {
-        Configuration.baseUrl="https://demoqa.com";
+        Configuration.baseUrl = "https://demoqa.com";
         Configuration.startMaximized = true;
     }
 
@@ -41,12 +41,12 @@ public class PageTest {
                 .setEmail(email)
                 .setGender(gender)
                 .setMobile(phone)
-                .setDateOfBirth(day,month,year)
+                .setDateOfBirth(day, month, year)
                 .setSubjects(subject)
                 .setHobbies(hobby)
                 .uploadFile(file)
                 .setAddress(address)
-                .setStateAndCity(state,city)
+                .setStateAndCity(state, city)
                 .clickSubmitButton();
         // popup assertions
         registrationPage.pageAssert(firstName)
