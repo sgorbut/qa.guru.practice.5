@@ -21,7 +21,7 @@ public class PageTest {
     String month = "January";
     String year = "2001";
     String subject = "Social Studies";
-    String hobby = "Sports";
+    String hobby = "Reading";
     String file = "src/test/resources/ExamplePicture.png";
     String address = faker.address().fullAddress();
     String state = "Haryana";
