@@ -20,7 +20,7 @@ public class PageTest {
     String day = "28";
     String month = "January";
     String year = "2001";
-    String subject = "Art";
+    String subject = "Social Studies";
     String hobby = "Sports";
     String file = "src/test/resources/ExamplePicture.png";
     String address = faker.address().fullAddress();
