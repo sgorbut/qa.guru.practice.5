@@ -17,9 +17,9 @@ public class PageTest {
     String email = faker.internet().emailAddress();
     String gender = "Male";
     String phone = faker.numerify("##########");
-    String day = "09";
+    String day = "28";
     String month = "January";
-    String year = "2000";
+    String year = "2001";
     String subject = "Art";
     String hobby = "Sports";
     String file = "src/test/resources/ExamplePicture.png";
