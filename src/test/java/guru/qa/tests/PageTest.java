@@ -17,11 +17,11 @@ public class PageTest {
     String email = faker.internet().emailAddress();
     String gender = "Male";
     String phone = faker.numerify("##########");
-    String day = "09";
+    String day = "28";
     String month = "January";
-    String year = "2000";
-    String subject = "Art";
-    String hobby = "Sports";
+    String year = "2001";
+    String subject = "Social Studies";
+    String hobby = "Reading";
     String file = "src/test/resources/ExamplePicture.png";
     String address = faker.address().fullAddress();
     String state = "Haryana";
